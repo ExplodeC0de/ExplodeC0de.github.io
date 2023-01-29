@@ -25,7 +25,7 @@
           <ul>
             <li><a href="#hero" data-after="Home">Home</a></li>
             <li><a href="#help" data-after="Help">Help</a></li>
-            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#jobs" data-after="Jobs">Jobs</a></li>
             <li><a href="#about" data-after="About">About</a></li>
             <li><a href="#contact" data-after="Contact">Contact</a></li>
           </ul>
@@ -89,77 +89,75 @@
     </div>
   </section>
   <!-- End Service Section -->
+  <!-- Job Section -->
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="projects container">
-      <div class="projects-header">
-        <h1 class="section-title">Recent <span>Projects</span></h1>
+  <section id="jobs">
+    <h1 class="section-title">Open <span>Jobs</span></h1>
+    <h2>All jobs here are NOT paid, everyone in these positions are volunteer and can resign at anytime! Staff can ask for breaks when needed.</h2>
+    <div class="jobs container">
+      <div class="jobs-header">
+
       </div>
-      <div class="all-projects">
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 1</h1>
-            <h2>Auto Clicker</h2>
-            <p>Get good at gaming by using this! The first project idea is an auto clicker, Auto clickers are so easy
-            to make and here is a link to the tutorial</p>
-            <a href="https://youtu.be/4XZUd835Ft0" type="button" class="cta">Auto Clicker Video</a>
-
-          </div>
-          <div class="project-img">
-            <img src="plo.png" alt="img">
-          </div>
+      <div class="job-list">
+        <div class="job-item">
+          <h2>Web Developer</h2>
+          <p>We are looking for a skilled web developer to join our team. The ideal candidate should have experience with using GitHub, HTML, CSS, JavaScript, and responsive design.</p>
+          <button type="button" class="cta" onclick="showApplicationForm()">Apply Now</button>
         </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 2</h1>
-            <h2>Make a voice assistant</h2>
-            <p>Ever wondered if you can make your own version of Alexa, Google assistant?
-            Learn how by hitting that big button!</p>
-            <a href="https://youtube.com/playlist?list=PLCWeCuse9ouOO4xzFIaR9bRkzILZ_OaRB" type="button" class="cta">Voice Assistant Playlist</a>
-          </div>
-          <div class="project-img">
-            <img src="plo.png" alt="img">
-          </div>
+        <div class="job-item">
+          <h2>Discord Bot Developer</h2>
+          <p>We are seeking a talented Python programmer to join our Bot development team. The ideal candidate should have experience with using GitHub, Python, Discord Bots and Discord</p>
+          <button type="button" class="cta" onclick="showApplicationForm()">Apply Now</button>
         </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 3</h1>
-            <h2>Graphics</h2>
-            <p>I make turtle graphics which lead on to amazing displays and animations Here is an example here</p>
-            <a href="https://youtube.com/shorts/_FSy4QEDb5o?feature=share" type="button" class="cta">Graphics Example</a>
-          </div>
-          <div class="project-img">
-            <img src="plo.png" alt="img">
-          </div>
+        <div class="job-item">
+          <h2>Partnership Manager</h2>
+          <p>We are looking for a discord user who can get partnerships for our server. The ideal candidate should have experience with discord and following rules.</p>
+          <button type="button" class="cta" onclick="showApplicationForm()">Apply Now</button>
         </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 4</h1>
-            <h2>Make a clock</h2>
-            <p>This is an analogue clock made withturtle graphics and it even tells the correct time</p>
-            <a href="https://youtube.com/shorts/CaHarHF5FB0?feature=share" type="button" class="cta">Clock example</a>
-          </div>
-          <div class="project-img">
-            <img src="plo.png" alt="img">
-          </div>
+        <div class="job-item">
+          <h2>Moderator</h2>
+          <p>We are looking for an active discord user who is reliable and follows rules! The ideal candidate should have experience with discord and discord moderation.</p>
+          <button type="button" class="cta" onclick="showApplicationForm()">Apply Now</button>
         </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 5</h1>
-            <h2>Make a website</h2>
-            <p>The website project is not using python it uses html, CSS and JavaScript! The website project is this!
-              The website you are using now</p>
-             <a href="#hero" type="button" class="cta">Back To HomePage</a>
-          </div>
-          <div class="project-img">
-            <img src="htm.png" alt="img">
-          </div>
+        <div class="job-item">
+          <h2>Advertiser</h2>
+          <p>We are looking for a discord user who can advertise our server. The ideal candidate should have experience with discord and following rules</p>
+          <button type="button" class="cta" onclick="showApplicationForm()">Apply Now</button>
         </div>
       </div>
     </div>
+
   </section>
-  <!-- End Projects Section -->
+  <div id="application-form" style="display:none;">
+    <h2>Application Form</h2>
+    <!-- Add your application form fields here -->
+    <?php include("thing.php"); ?>
+
+    <form method="post" action="thing.php">
+      <label for="name">Discord user and tag or name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="position">Desired Position:</label>
+      <input type="text" id="position" name="position" required>
+
+      <label for="experience">Experience With Position:</label>
+      <textarea id="experience" name="experience" required></textarea>
+
+      <label for="why_interested">Why Are You Interested</label>
+      <input type="text" id="why_interested" name="why_interested" required>
+
+      <input type="submit" name="submit" value="Submit">
+
+    </>
+
+  </div>
+<!-- End Job Section -->
+
+
+
 
   <!-- About Section -->
   <section id="about">
@@ -206,7 +204,7 @@
         <h1><span>E</span>xplodeCode</h1>
       </div>
       <h2>Can't Explode It, Just Code It!</h2>
-      <p>©2022 ExplodeCode</p>
+      <p>©2023 ExplodeCode</p>
     </div>
   </section>
   <!-- End Footer -->
