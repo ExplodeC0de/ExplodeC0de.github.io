@@ -42,7 +42,7 @@ p {
 	text-align: center;
 }
 .section-title span {
-	color: lime;
+	color: #ff6300;
 }
 
 .cta {
@@ -50,7 +50,7 @@ p {
 	padding: 10px 30px;
 	color: white;
 	background-color: transparent;
-	border: 2px solid lime;
+	border: 2px solid #ff6300;
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
@@ -64,7 +64,7 @@ p {
 	padding: 20px 40px;
 	color: black;
 	background-color: transparent;
-	border: 2px solid lime;
+	border: 2px solid #ff6300;
 	font-size: 4rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
@@ -74,12 +74,12 @@ p {
 }
 .cta:hover {
 	color: white;
-	background-color: lime;
+	background-color: #ff6300;
 }
 
 .cba:hover {
 	color: white;
-	background-color: lime;
+	background-color: #ff6300;
 }
 
 .brand h1 {
@@ -88,7 +88,7 @@ p {
 	color: white;
 }
 .brand h1 span {
-	color: lime;
+	color: #ff6300;
 }
 
 /* Header section */
@@ -117,7 +117,7 @@ p {
 #header .nav-list ul {
 	list-style: none;
 	position: absolute;
-	background-color: rgb(31, 30, 30);
+	background-color: #ff6300;
 	width: 100vw;
 	height: 100vh;
 	left: 100%;
@@ -160,7 +160,7 @@ p {
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-	color: lime;
+	color: #ff6300;
 }
 #header .hamburger {
 	height: 60px;
@@ -268,7 +268,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color: lime;
+	background-color: #ff6300;
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
@@ -454,7 +454,7 @@ p {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid lime;
+	border: 7px solid #ff6300;
 	z-index: -1;
 }
 /* End About Section */
@@ -572,7 +572,7 @@ p {
 }
 @keyframes text_reveal_name {
 	100% {
-		color: lime;
+		color: #ff6300;
 		font-weight: 500;
 	}
 }
@@ -636,7 +636,7 @@ p {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid lime;
+		border: 10px solid #ff6300;
 	}
 	#about .col-right {
 		text-align: left;
@@ -713,3 +713,113 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
+/* Job Section */
+#jobs {
+  background-color: #f7f7f7;
+  padding: 80px 0;
+}
+
+.jobs-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.section-title span {
+  color: ##ff6300;
+}
+
+.job-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.job-item {
+  width: calc(33.33% - 20px);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 40px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-item h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.job-item p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.cta {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #ff6300;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+#jobs h2 {
+  text-align: center;
+}
+
+/* Staff Applications Form */
+#application-form {
+  width: 50%;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px #ddd;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#application-form h2 {
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #333;
+}
+
+#application-form input[type="text"],
+#application-form input[type="email"],
+#application-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  color: #333;
+}
+
+#application-form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#application-form input[type="submit"]:hover {
+  background-color: #444;
+}
