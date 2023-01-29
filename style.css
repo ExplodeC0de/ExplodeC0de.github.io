@@ -42,7 +42,7 @@ p {
 	text-align: center;
 }
 .section-title span {
-	color: #ff6300;
+	color: lime;
 }
 
 .cta {
@@ -50,7 +50,7 @@ p {
 	padding: 10px 30px;
 	color: white;
 	background-color: transparent;
-	border: 2px solid #ff6300;
+	border: 2px solid lime;
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
@@ -64,7 +64,7 @@ p {
 	padding: 20px 40px;
 	color: black;
 	background-color: transparent;
-	border: 2px solid #ff6300;
+	border: 2px solid lime;
 	font-size: 4rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
@@ -74,12 +74,12 @@ p {
 }
 .cta:hover {
 	color: white;
-	background-color: #ff6300;
+	background-color: lime;
 }
 
 .cba:hover {
 	color: white;
-	background-color: #ff6300;
+	background-color: lime;
 }
 
 .brand h1 {
@@ -88,7 +88,7 @@ p {
 	color: white;
 }
 .brand h1 span {
-	color: #ff6300;
+	color: lime;
 }
 
 /* Header section */
@@ -117,7 +117,7 @@ p {
 #header .nav-list ul {
 	list-style: none;
 	position: absolute;
-	background-color: #ff6300;
+	background-color: #lime;
 	width: 100vw;
 	height: 100vh;
 	left: 100%;
@@ -160,7 +160,7 @@ p {
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-	color: #ff6300;
+	color: lime;
 }
 #header .hamburger {
 	height: 60px;
@@ -268,7 +268,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color: #ff6300;
+	background-color: lime;
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
@@ -338,78 +338,6 @@ p {
 }
 /* End Services Section */
 
-/* Projects section */
-#projects .projects {
-	flex-direction: column;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 100px 0;
-}
-#projects .projects-header h1 {
-	margin-bottom: 50px;
-}
-#projects .all-projects {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-}
-#projects .project-item {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	width: 80%;
-	margin: 20px auto;
-	overflow: hidden;
-	border-radius: 10px;
-}
-#projects .project-info {
-	padding: 30px;
-	flex-basis: 50%;
-	height: 100%;
-	display: flex;
-	align-items: flex-start;
-	justify-content: center;
-	flex-direction: column;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	color: white;
-}
-#projects .project-info h1 {
-	font-size: 4rem;
-	font-weight: 500;
-}
-#projects .project-info h2 {
-	font-size: 1.8rem;
-	font-weight: 500;
-	margin-top: 10px;
-}
-#projects .project-info p {
-	color: white;
-}
-#projects .project-img {
-	flex-basis: 50%;
-	height: 300px;
-	overflow: hidden;
-	position: relative;
-}
-#projects .project-img:after {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 100%, #485563 100%);
-	opacity: 0.7;
-}
-#projects .project-img img {
-	transition: 0.3s ease transform;
-}
-#projects .project-item:hover .project-img img {
-	transform: scale(1.1);
-}
-/* End Projects section */
 
 /* About Section */
 #about .about {
@@ -454,7 +382,7 @@ p {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid #ff6300;
+	border: 7px solid lime;
 	z-index: -1;
 }
 /* End About Section */
@@ -572,7 +500,7 @@ p {
 }
 @keyframes text_reveal_name {
 	100% {
-		color: #ff6300;
+		color: lime;
 		font-weight: 500;
 	}
 }
@@ -636,7 +564,7 @@ p {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid #ff6300;
+		border: 10px solid lime;
 	}
 	#about .col-right {
 		text-align: left;
@@ -733,7 +661,7 @@ p {
 }
 
 .section-title span {
-  color: ##ff6300;
+  color: lime;
 }
 
 .job-list {
@@ -769,7 +697,7 @@ p {
   display: inline-block;
   padding: 10px 20px;
   background-color: transparent;
-  color: #ff6300;
+  color: lime;
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
