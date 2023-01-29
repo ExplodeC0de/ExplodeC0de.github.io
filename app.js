@@ -23,3 +23,8 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+
+function showApplicationForm() {
+  document.getElementById("application-form").style.display = "block";
+}
+
